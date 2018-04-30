@@ -13,6 +13,7 @@ private:
 	vector<item> list;
 	int arrow;
 	void updateLine(int line, int line2);
+	void hideCursor(HANDLE out);
 public:
 	Selectlist(COORD pos, int opt = 3) : position(pos), arrow(0) {
 		for (int i = 0; i < opt; i++) this->list.push_back({ "Option #" + to_string(i) , false });
