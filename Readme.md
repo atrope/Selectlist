@@ -4,9 +4,9 @@ C++ project that creates a Selectlist with custom number of options
 
 ## Getting Started
 
-Run the program in Visual Studio by opening it at Selectlist.sln
-To select an option press <SPACE>, move through options with UP arrow and DOWN arrow
-ESC will exit the program.
+Run the program in Visual Studio by opening it at Selectlist.sln  
+To select an option press <SPACE>, move through options with UP arrow and DOWN arrow  
+ESC will exit the program.  
 You can change position and number of options of the select list in main.cpp:
 
 ```
